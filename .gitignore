@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+data/
+*.csv
+.DS_Store
+track_numbers.md
