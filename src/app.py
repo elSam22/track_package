@@ -79,7 +79,7 @@ HTML = """
     </div>
 
     <form class="search-box" method="POST">
-        <input type="text" name="track_number" placeholder="Numéro de suivi (ex: SYZZ041370200)"
+        <input type="text" name="track_number" placeholder="Numéro de suivi"
                value="{{ track_number or '' }}" required>
         <button type="submit">Suivre</button>
     </form>
